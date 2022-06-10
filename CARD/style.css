@@ -1,41 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
 
 body {
-    background: firebrick;
-    font-family: "Kdam Thmor Pro", sans-serif;
-    color: azure;
+  background: #fff;
+  font-family: "Kdom Thmor Pro", sans-serif;
+  color: #333;
+}
+
+.cartoes {
+  display: grid;
+  grid-template-columns: 13.5em 13.5em;
+  grid-template-rows: 300px 300px;
+  grid-gap: 20px;
 }
 
 .cartao {
-    height: 200px;
-    width: 200px;
-    perspective: 1000px;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
 }
 
 .cartao-container {
-    position: relative;
-    height: 100%;
-    transition: transform .5s;
-    transform-style: preserve-3d;
+  position: relative;
+  height: 100%;
+  transition: transform .4s;
+  transform-style: preserve-3d;
 }
 
 .cartao:hover .cartao-container {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.cartao-frente, .cartao-atras {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    z-index: 1;
+.cartao-front, .cartao-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  z-index: 1;
+  border-radius: 5px;
+  
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
 
-.cartao-frente {
-    background: goldenrod;
+.cartao-front {
+  background: #666;
 }
 
-.cartao-atras {
-    transform: rotateY(180deg);
-    background: royalblue;
+.cartao-back {
+  transform: rotateY(180deg);
+  background: #fff;
+  
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #44432a;
+  
+  background-color: #f7f6e8;
+}
+
+.cartao1 .cartao-front {
+  background-image: url(https://images.unsplash.com/photo-1462060336776-cef9892ad536?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-position: 30%
+}
+
+.cartao2 .cartao-front {
+  background-image: url(https://images.unsplash.com/photo-1495556650867-99590cea3657?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-position: 100%
+}
+
+.cartao3 .cartao-front {
+  background-image: url(https://images.unsplash.com/photo-1550170139-ed6b5e6b4c38?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-position: 100%
+}
+
+.cartao4 .cartao-front {
+  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-position: 100%
 }
