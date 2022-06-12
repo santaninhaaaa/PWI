@@ -51,11 +51,11 @@ body {
   
   box-sizing: border-box;
   padding: 15px;
-  font-size: 1rem;
+  font-size: 0.5cm;
   font-weight: 500;
   color: #44432a;
   
-  background-color: #f7f6e8;
+  background-color: #faf2fd;
 }
 
 .cartao1 .cartao-front {
@@ -77,6 +77,24 @@ body {
 }
 
 .cartao4 .cartao-front {
+  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-position: 100%
+}
+
+.cartao5 .cartao-front {
+  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-position: 100%
+}
+
+.cartao6 .cartao-front {
+  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-position: 100%
+}
+
+.cartao7 .cartao-front {
   background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
   background-size: cover;
   background-position: 100%
