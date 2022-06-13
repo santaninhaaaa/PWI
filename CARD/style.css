@@ -1,33 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 body {
-  background: #fff;
-  font-family: "Kdom Thmor Pro", sans-serif;
-  color: #333;
+  background: rgb(236, 236, 236);
+  font-family: "Rock Salt", cursive;
+  color: rgb(85, 11, 11);
 }
 
 .cartoes {
   display: grid;
-  grid-template-columns: 13.5em 13.5em;
+  grid-template-columns: 400px 400px;
   grid-template-rows: 300px 300px;
   grid-gap: 20px;
+  columns: 1
 }
 
 .cartao {
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 300px;
   perspective: 1000px;
+  columns: 1
 }
 
 .cartao-container {
   position: relative;
   height: 100%;
-  transition: transform .4s;
+  transition: transform .6s;
   transform-style: preserve-3d;
 }
 
 .cartao:hover .cartao-container {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) rotateX(360deg);
 }
 
 .cartao-front, .cartao-back {
@@ -51,15 +53,15 @@ body {
   
   box-sizing: border-box;
   padding: 15px;
-  font-size: 0.5cm;
+  font-size: 1rem;
   font-weight: 500;
-  color: #44432a;
+  color: #000000;
   
-  background-color: #faf2fd;
+  background-color: #fff1f0;
 }
 
 .cartao1 .cartao-front {
-  background-image: url(https://images.unsplash.com/photo-1462060336776-cef9892ad536?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(https://images.pexels.com/photos/3985154/pexels-photo-3985154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: 30%
 }
@@ -83,18 +85,6 @@ body {
 }
 
 .cartao5 .cartao-front {
-  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-  background-size: cover;
-  background-position: 100%
-}
-
-.cartao6 .cartao-front {
-  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
-  background-size: cover;
-  background-position: 100%
-}
-
-.cartao7 .cartao-front {
   background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
   background-size: cover;
   background-position: 100%
