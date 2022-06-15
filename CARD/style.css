@@ -11,14 +11,12 @@ body {
   grid-template-columns: 400px 400px;
   grid-template-rows: 300px 300px;
   grid-gap: 20px;
-  columns: 1
 }
 
 .cartao {
   width: 400px;
   height: 300px;
   perspective: 1000px;
-  columns: 1
 }
 
 .cartao-container {
@@ -29,7 +27,7 @@ body {
 }
 
 .cartao:hover .cartao-container {
-  transform: rotateY(180deg) rotateX(360deg);
+  transform: rotateY(180deg);
 }
 
 .cartao-front, .cartao-back {
@@ -39,8 +37,6 @@ body {
   backface-visibility: hidden;
   z-index: 1;
   border-radius: 5px;
-  
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }
 
 .cartao-front {
@@ -53,7 +49,7 @@ body {
   
   box-sizing: border-box;
   padding: 15px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   color: #000000;
   
@@ -85,6 +81,18 @@ body {
 }
 
 .cartao5 .cartao-front {
+  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-position: 100%
+}
+
+.cartao6 .cartao-front {
+  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-position: 100%
+}
+
+.cartao7 .cartao-front {
   background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
   background-size: cover;
   background-position: 100%
