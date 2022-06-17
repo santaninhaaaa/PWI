@@ -8,14 +8,14 @@ body {
 
 .cartoes {
   display: grid;
-  grid-template-columns: 400px 400px;
-  grid-template-rows: 300px 300px;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 360px 360px;
   grid-gap: 20px;
 }
 
 .cartao {
   width: 400px;
-  height: 300px;
+  height: 360px;
   perspective: 1000px;
 }
 
@@ -63,37 +63,37 @@ body {
 }
 
 .cartao2 .cartao-front {
-  background-image: url(https://images.unsplash.com/photo-1495556650867-99590cea3657?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(https://www.escolasopengo.com.br/img/administracao/curso-tecnico-administracao.jpg);
   background-size: cover;
-  background-position: 100%
+  background-position: 50%
 }
 
 .cartao3 .cartao-front {
-  background-image: url(https://images.unsplash.com/photo-1550170139-ed6b5e6b4c38?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(https://faesde.com.br/wp-content/uploads/2017/09/110419-tecnico-de-edificacoes-conheca-o-curso-e-as-vantagens-da-carreira.jpg);
   background-size: cover;
   background-position: 100%
 }
 
 .cartao4 .cartao-front {
-  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(https://cetesaescolatecnica.com.br/wp-content/uploads/2020/10/concursos_area_quimica-1-1024x685-1-768x514.png);
   background-size: cover;
-  background-position: 100%
+  background-position: 70%
 }
 
 .cartao5 .cartao-front {
-  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(https://barueriportal.com.br/wp-content/uploads/2017/02/Recursos-Humanos-Conectar-ou-não-conectar-eis-a-questão.jpg);
   background-size: cover;
-  background-position: 100%
+  background-position: 60%
 }
 
 .cartao6 .cartao-front {
-  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(https://palmas.ifpr.edu.br/wp-content/uploads/2021/09/Técnico-em-Serviços-Jurídicos-1024x392.jpg);
   background-size: cover;
-  background-position: 100%
+  background-position: 40%
 }
 
 .cartao7 .cartao-front {
-  background-image: url(https://images.unsplash.com/photo-1554578452-2dda21e5d482?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(https://westgroup.com.br/site/wp-content/uploads/2019/02/tecnico-em-mecatronica.jpg);
   background-size: cover;
-  background-position: 100%
+  background-position: 50%
 }
