@@ -2,7 +2,10 @@
 
 body {
   margin: 0;
-  background: #222;
+  padding: 0;
+  height: 100vh;
+
+  background: rgb(224, 224, 224);
   font-family: "Comfortaa", cursive;
   font-weight: 300;
 }
@@ -48,14 +51,14 @@ nav a {
 }
 
 nav a:hover {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 nav a::before {
   content: " ";
   display: block;
   height: 5px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 
   position: absolute;
   top: 0;
@@ -66,4 +69,73 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+.slider {
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.slides {
+  display: flex;
+  width: 400%;
+  height: 100%;
+}
+
+.dot-navbar {
+  position: absolute;
+  bottom: 20px;
+
+  display: flex;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+input {
+  display: none;
+}
+
+.manual-btn {
+  border: 2px solid #fff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-btn:hover {
+  background: #fff;
+  transition: 0.4s;
+}
+
+.slide {
+  width: 25%;
+  transition: 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  heigth: 100%;
+}
+
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -;
 }
