@@ -25,6 +25,13 @@ header::after {
   clear: both;
 }
 
+.logo {
+  width: 90px;
+  height: 90px;
+
+  float: left;
+}
+
 nav {
   float: right;
 }
