@@ -16,7 +16,6 @@ body{
 .about-section{
     background: url(pic3.jpg) no-repeat left;
     background-size: 50%;
-    background-color: #ffffff;
     overflow: hidden;
     height: 100%;
     padding: 100px 0;
@@ -96,12 +95,14 @@ transition: 0.5s;
   background-image: linear-gradient(to right top, #ffbb00, #ffbb00, #ffbb00, #ffbb00, #ffbb00);
   color: #fff;
   border-radius: 20px;
-
-
 }
+
+
 
 header {
     background: #d66855;
+    width: 30%;
+    height: 100%;
   }
   
   header::after {
@@ -111,8 +112,8 @@ header {
   }
   
   .logo {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
   
     float: left;
   }
@@ -129,7 +130,7 @@ header {
   
   nav li {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 10px;
     padding-top: 23px;
   
     position: relative;
@@ -149,16 +150,21 @@ header {
   nav a::before {
     content: " ";
     display: block;
-    height: 5px;
+    height: 3px;
     background-color: rgb(255, 255, 255);
   
     position: absolute;
-    top: 0;
+    top: 20px;
     width: 0%;
   
     transition: all ease-in-out 250ms;
   }
   
   nav a:hover::before {
-    width: 100%;
+    width: 70%;
+  }
+
+  *{
+    box-sizing: border-box;
+    outline: 1px solid limegreen !important;
   }
