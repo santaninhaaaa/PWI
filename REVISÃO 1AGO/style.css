@@ -34,5 +34,21 @@ ul {
 .dinamica {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(124, 3, 3);
-    
+    font-size: large;
+    padding-top: 90px;
+    padding-left: 90px;
 }
+
+button {
+    background-color: brown;
+    border-color: brown;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.clicou {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
