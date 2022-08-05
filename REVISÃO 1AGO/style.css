@@ -47,8 +47,8 @@ button {
 }
 
 .clicou {
-    padding: 0;
+    padding-top: 70px;
+    padding-left: 100px;
     margin: 0;
     box-sizing: border-box;
 }
-
