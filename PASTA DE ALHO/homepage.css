@@ -1,40 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
 
   background: rgb(224, 224, 224);
-  font-family: "Comfortaa", cursive;
-  font-weight: 300;
+
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+  padding: 20px;
 }
 
 header {
   background: #cdb7ff;
 }
 
-header::after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-
-.logo {
-  width: 90px;
-  height: 90px;
-
-  float: left;
-}
-
 nav {
-  justify-content: center;
-  justify-items: center;
+  text-align: center;
   position: relative;
 }
 
@@ -47,7 +31,8 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 50px;
-  padding-top: 23px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   position: relative;
 }
@@ -66,4 +51,19 @@ nav a {
 nav a:hover {
   color: rgb(0, 0, 0);
   font-size: 16px;
+  font-weight: bold;
+}
+
+.texto {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  width: 400px;
+  height: 80px;
+
+  display: flex;
+  float: right;
+  text-align: center;
+  padding-right: 100px;
+  padding-top: 20px;
 }
