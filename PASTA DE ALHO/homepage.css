@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -74,17 +76,66 @@ nav a:hover {
 }
 
 
-.texto {
+.figcaption {
+  display: inline-flexbox;
   position: relative;
-  font-size: 20px;
-  font-weight: bold;
-  width: 400px;
-  height: 80px;
-
-  display: flex;
-  float: right;
-  text-align: center;
-  padding-right: 100px;
-  padding-top: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
+.imagem {
+  content: " ";
+  display: block;
+  height: 70vh;
+  width: 60%;
+
+}
+
+.objectImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+
+  position: relative;
+}
+
+.titulo {
+  position: absolute;
+  margin-top: -48rem;
+  margin-left: 2rem;
+
+  font-family: 'Cormorant SC', serif;
+  font-size: 100px;
+  text-shadow: black  2px 0;
+  color: rgb(255, 255, 255);
+}
+
+.caixatexto {
+  content: normal;
+  display: block;
+  height: 70vh;
+  width: 35vw;
+  background: red;
+  border-radius: 20px;
+  position: absolute;
+
+  justify-content: center;
+  justify-items: center;
+
+  margin-top: -35.3%;
+  margin-left: 63%;
+}
+
+
+
+.texto {
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  text-align: justify;
+  position: absolute;
+
+  margin-top: 100px;
+  background: purple;
+}
