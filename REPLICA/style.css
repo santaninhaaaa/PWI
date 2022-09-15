@@ -7,6 +7,7 @@ body {
   height: 100vh;
 
   background: #000000;
+  font-family:'8-bit Operator+ Bold', monospace;
 }
 
 .container {
@@ -25,18 +26,18 @@ header::after {
 }
 
 nav {
+  display: flex;
+  justify-content: center;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-left: 25%;
   
 }
 
 nav li {
-  font-family:'8-bit Operator+ Bold', monospace;
   text-shadow: 0 2px #000000;
   display: inline-block;
   padding: 15px;
@@ -55,4 +56,26 @@ nav a {
 
 nav a:hover {
   color: #D5D3F4;
+}
+
+.anuncio {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.status {
+  color: white
+}
+
+small {
+  color: gray;
 }
