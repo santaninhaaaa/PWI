@@ -62,20 +62,32 @@ nav a:hover {
   display: flex;
   justify-content: center;
   text-decoration: none;
+
 }
 
+h2 {
+  font-size: 32px;
+  display: block;
+
+}
 .red {
   color: red;
+  line-height: 1.2;
+  font-size: 65%;
+  font-weight: 500;
 }
 
 .yellow {
   color: yellow;
+  line-height: 1.2;
 }
 
 .status {
-  color: white
+  color: white;
+  line-height: 1.2;
 }
 
 small {
   color: gray;
 }
+
