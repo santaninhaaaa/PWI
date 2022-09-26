@@ -94,9 +94,35 @@ small {
 .castle {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
-.logo {
+.deltarune {
   display: flex;
   justify-content: center;
+  position: relative;
+
+  bottom:22rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.capitulos {
+  color: white;
+  font-size: 32px;
+  bottom: 130px;
+  left: 46rem;
+  position: absolute;
+}
+
+.fita {
+  display: flex;
+  position: absolute;
+  bottom: -150px;
+  left: 29rem;
+}
+
+.trailer {
+  justify-content: center;
+  display: flex;
 }
