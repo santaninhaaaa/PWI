@@ -91,6 +91,8 @@ small {
   color: gray;
 }
 
+/*---------------------CASTELO----------------------*/
+
 .castle {
   display: flex;
   justify-content: center;
