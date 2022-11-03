@@ -164,7 +164,3 @@ header {
     width: 70%;
   }
 
-  *{
-    box-sizing: border-box;
-    outline: 1px solid limegreen !important;
-  }

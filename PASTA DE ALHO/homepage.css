@@ -111,7 +111,7 @@ nav a:hover {
 
 .titulo {
   position: absolute;
-  margin-top: -48rem;
+  margin-top: -40rem;
   margin-left: 2rem;
 
   font-family: 'Cormorant SC', serif;
@@ -142,7 +142,7 @@ nav a:hover {
   justify-content: center;
   justify-items: center;
 
-  margin-top: -36.5%;
+  margin-top: -35.3%;
   margin-left: 63%;
 
   transition-duration: 500ms;
