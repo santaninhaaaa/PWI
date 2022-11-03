@@ -125,11 +125,17 @@ h2 {
   left: 29rem;
 }
 
-.button1 {
-  font-family:'8-bit Operator+ Bold', monospace;
-  font-size: large;
-
+.button1link, .button2link, .button3link{
+  display: absolute;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
+
+
+
+
 
 .trailer {
   justify-content: center;
