@@ -142,7 +142,7 @@ nav a:hover {
   justify-content: center;
   justify-items: center;
 
-  margin-top: -35.3%;
+  margin-top: -36.5%;
   margin-left: 63%;
 
   transition-duration: 500ms;
@@ -194,4 +194,18 @@ nav a:hover {
 .caixatexto a img:hover {
   height: 510px;
   width: 510px;
+}
+
+hr {
+  height: 5px;
+  background: #cfcfcf;
+  margin-top: 35px;
+  width: 75%;
+}
+
+h1 {
+  font-size: 85px;
+  margin-top: -10px;
+  margin-left: 10px;
+  color: #aa87fc
 }
