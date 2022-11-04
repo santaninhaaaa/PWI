@@ -197,7 +197,7 @@ nav a:hover {
 }
 
 hr {
-  height: 5px;
+  border-width: 2px;
   background: #cfcfcf;
   margin-top: 35px;
   width: 75%;
