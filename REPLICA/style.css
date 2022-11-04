@@ -125,20 +125,32 @@ h2 {
   left: 29rem;
 }
 
-.button1link, .button2link, .button3link{
-  display: absolute;
-  justify-content: center;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-
-
-
-
 .trailer {
   justify-content: center;
   display: flex;
 }
 
+.news {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+hr {
+  border-width: 2px;
+  color: #eee;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+.novidades {
+  margin-left: 20%;
+}
+
+.anuncionovidade {
+  display: flex;
+  justify-content: left;
+  text-decoration: none;
+  text-align: center;
+}
