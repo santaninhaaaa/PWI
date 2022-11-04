@@ -5,3 +5,18 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.cartao {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+
+.adicionais {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
